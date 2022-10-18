@@ -1,37 +1,11 @@
-﻿// Task 2. По заданному номеру дня недели вывести его название
-double number = new Random().Next(1,8);
-Console.WriteLine (number);
-
-if (number == 1)
+﻿// Task 1. По двум заданным числам проверять является ли первое квадратом второго
+int numberA = 4;
+int numberB = 2;
 {
-Console.WriteLine("Понедельник");
+
+  if (numberB*numberB == numberA)
+  Console.WriteLine("Да");
+  else if (numberB*numberB == numberA)
+   Console.WriteLine("Нет");
+ 
 }
-
-else if (number == 2)
-{
-    Console.WriteLine ("Вторник");
-    }
-
- else if (number == 3)
- {
-    Console.WriteLine("Среда");
- }   
-else if (number == 4)
-{
-    Console.WriteLine("Четверг");
-}
-else if (number == 5)
-{
-    Console.WriteLine("Пятница");
-}
-else if (number == 6)
-{
-    Console.WriteLine("Субботв");
-}
-else if (number == 7)
-{
-    Console.WriteLine("Воскресенье");
-}
-
-
-
